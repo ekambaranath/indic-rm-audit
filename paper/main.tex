@@ -1,0 +1,25 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs,graphicx,hyperref,amsmath}
+\title{Language or Context? Separating Language Effects from India-Specific Content Effects\\in Reward Model Evaluation for Hindi and Telugu}
+\author{Ekambaranath Tirunagiri}
+\date{PREPRINT, not peer reviewed}
+\begin{document}\maketitle
+\begin{abstract}
+Reward models (RMs) are reported to score worse in lower-resource languages, but benchmarks that translate English
+items cannot tell whether the drop comes from the \emph{language} or from \emph{India-specific content} the model
+lacks in any language. We introduce a $2\times3$ factorial audit (India-specific vs generic facts $\times$ English,
+Hindi, Telugu) on minimal preference pairs with identical content across languages, English facts checked against
+cited sources and translations post-edited by a native speaker. [RESULT SENTENCE: fill after scoring: models,
+$N$ per domain, language gap, context gap, interaction with intervals.] We release the dataset, code and a
+pre-registered analysis.
+\end{abstract}
+\section{Introduction} [Problem, gap, contributions: design, dataset, findings.]
+\section{Related Work} HelpSteer3 multilingual (13 languages, no Indian language); M-RewardBench (machine translated; Hindi, not Telugu); RELIC; Samiksha. [Verify and cite each; re-run the search before submission.]
+\section{Design} Seeds, minimal pairs, error types, domains, languages, annotation protocol, agreement [report honestly: who reviewed, what share].
+\section{Analysis} Accuracy and standardised margin; cluster bootstrap over seeds; contrasts (language gap, context gap, interaction); length and token-inflation controls; simulation-based validation and power.
+\section{Results} [Tables and interaction figure from results/results.md and results/interaction.png.]
+\section{Limitations} Translation quality; two languages; factual-error pairs only; scalar RMs; small $N$ [state it]; not a claim about all RMs.
+\section{Ethics and Data Statement} Annotator = author; no personal data; licence [choose].
+\bibliographystyle{plain} % add references.bib
+\end{document}

@@ -1,0 +1,7 @@
+numpy
+matplotlib
+torch
+transformers>=4.45
+accelerate
+bitsandbytes   # only needed for --load-in-4bit (8B models on a T4)
+pytest
